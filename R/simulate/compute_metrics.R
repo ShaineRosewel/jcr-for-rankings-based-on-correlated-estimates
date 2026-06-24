@@ -1,4 +1,4 @@
-source("/home/realiseshewon/PDev/kde-ranking/R/simulate/compute_ci.R")
+source("R/simulate/compute_ci.R")
 library("doRNG")
 
 get_ranks <- function(k, tuple_list){
