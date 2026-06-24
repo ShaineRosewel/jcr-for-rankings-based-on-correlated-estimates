@@ -29,7 +29,7 @@ registerDoParallel(cl)
 case_start <- Sys.time()
 
 
-df <- readRDS("data/mean_travel_time_ranking_2011.rds")
+df <- readRDS("mean_travel_time_ranking_2011.rds")
 mean <- 23.8
 sds <- c(2) #c(3.6, 6.0) # disparity
 Ks <- c(10) #c(20, 30, 40, 50)
