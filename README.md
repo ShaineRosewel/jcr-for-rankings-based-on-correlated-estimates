@@ -2,7 +2,7 @@
 
 Simulation codes used for the thesis: "Joint Confidence Regions for Rankings based on Correlated Estimates".
 
-The main code can be ran with `R/simulate/implement.R`. Settings such as `K`, disparity level, correlation structure can be assigned here.
+The main code can be ran with `source(R/simulate/implement.R)`. Settings such as `K`, disparity level, correlation structure can be assigned here.
 
 The `mean_travel_time_ranking_2011.rds` is included since we used the standard error in the simulation study from that dataset.
 
