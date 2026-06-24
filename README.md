@@ -15,4 +15,4 @@ All results are obtained using R version 4.5.2 (2025-10-31).
 
 # Future Plans
 
-Moving forward, I will continue improving the code to make it user-friendly, potentially turning it into a package.
+Moving forward, I will continue improving the code to make it user-friendly, potentially documenting or turning it into a package.
