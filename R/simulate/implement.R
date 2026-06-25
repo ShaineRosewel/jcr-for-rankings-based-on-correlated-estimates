@@ -50,7 +50,7 @@ for (sd in sds) {
     variance_vector <- se^2
     delta <- diag(variance_vector)
     varcovar_matrix <- delta^(1/2) %*% corr_matrix %*% delta^(1/2)
-    out <- implement_algorithm2(
+    out <- implement_algorithm(
       true_theta = true_theta,
       K = K, 
       reps=5000,
