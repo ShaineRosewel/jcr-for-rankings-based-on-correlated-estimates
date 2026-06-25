@@ -35,7 +35,7 @@ process_ci_result <- function(result, K){
   list(
     t1 = get_t1(rank_range_length),
     t2 = get_t2(rank_range_length),
-    t3 = get_t3(rank_range_length)
+    t3 = get_t3(rank_range_length-1)
   )
 }
 
@@ -58,7 +58,7 @@ get_coverage <- function(ci_lower,
   }
 }
 
-implement_algorithm2 <- function(
+implement_algorithm <- function(
     true_theta,
     K, 
     reps = 5000,
