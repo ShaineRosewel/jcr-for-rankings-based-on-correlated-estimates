@@ -34,7 +34,7 @@ get_ci_rankbased_asymptotic <- function(B,
 
   K <- length(theta_hat)
 
-  set.seed(3)
+  # set.seed(3)
   thetahat_star <- MASS::mvrnorm(n = B,
                                  mu = theta_hat,
                                  Sigma = varcovar_matrix)
@@ -86,7 +86,7 @@ get_ci_rankbased_level2bs <- function(B,
   K <- length(theta_hat)
   sorted_theta_hat <- sort(theta_hat)
 
-  set.seed(3)
+  # set.seed(3)
   thetahat_star <- MASS::mvrnorm(n = B,
                                  mu = theta_hat,
                                  Sigma = varcovar_matrix) # B x K
